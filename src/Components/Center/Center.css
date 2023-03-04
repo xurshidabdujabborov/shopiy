@@ -1,0 +1,36 @@
+.Center {
+  width: 100%;
+  margin-top: 100px;
+}
+.Center .text {
+  text-align: left;
+}
+.Center .text h2.title{
+    margin-top: 20px;
+}
+.Center .text p.text{
+    margin-top: 35px;
+}
+.Center .flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Center .flex .box {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.Center .flex .box:hover {
+  cursor: pointer;
+  transition: 1s;
+  background: #1a1a3d;
+}
+.Center .flex .box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: white;
+  margin-top: 30px;
+}

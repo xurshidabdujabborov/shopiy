@@ -1,0 +1,79 @@
+nav {
+  width: 100%;
+  padding: 50px 0px;
+}
+nav .logo {
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  color: white;
+}
+nav .right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+nav .right button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  padding: 10px 35px;
+  border: none;
+  border: 1px solid #ffbe0b;
+  border-radius: 10px;
+  color: #ffbe0b;
+  margin-right: 30px;
+}
+nav .right button:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color: #ffbe0b;
+    color: #0E0E2C;
+}
+nav .right a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  padding: 10px 35px;
+  border-radius: 10px;
+  color: #0E0E2C;
+  background-color: #ffbe0b;
+}
+@media(max-width: 900px){
+  nav ul{
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 10px 0px;
+  }
+  nav .right{
+    flex-direction: column;
+  }
+  nav .right button{
+    width: 100%;
+    margin: 0;
+    margin: 20px 0px;
+  }
+  nav .right a{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}

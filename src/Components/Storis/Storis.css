@@ -1,0 +1,24 @@
+.Storis {
+  width: 100%;
+  margin-top: 100px;
+}
+.Storis .img {
+  text-align: left;
+}
+.Storis .img img {
+  width: 100%;
+}
+.Storis .text .flex {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.Storis .text .nan{
+    margin: 0px 10px;
+}
+.Storis .text .flex .nan h3 {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 49px;
+  color: #FFBE0B;
+}

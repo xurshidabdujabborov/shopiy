@@ -1,0 +1,21 @@
+.Bottom{
+    width: 100%;
+    margin-top: 100px;
+}
+.Bottom .text{
+    text-align: left;
+}
+.Bottom .text h2.title{
+    margin-top: 20px;
+}
+.Bottom .text p.text{
+    margin-top: 35px;
+}
+.Bottom .img{
+    text-align: right;
+}
+@media(max-width: 900px){
+    .Bottom .img{
+        text-align: center;
+    }
+}

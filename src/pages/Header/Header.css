@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  margin-top: 130px;
+}
+header .card {
+  text-align: left;
+}
+header .card form {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+header .card form input {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #626276;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  padding: 13px 0px;
+  padding-left: 40px;
+  border: none;
+  border: 1px solid #626276;
+}:focus{
+    outline: none;
+}
+header .card form button {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 29px;
+  padding: 11px 20px;
+  border: none;
+  background: #ffbe0b;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+header .img img{
+    width: 100%;
+}

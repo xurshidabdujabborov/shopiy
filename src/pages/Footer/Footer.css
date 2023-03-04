@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+footer .img{
+    text-align: left;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    color: white;
+}
+footer .right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+footer .right .css-i4bv87-MuiSvgIcon-root{
+    color: white;
+    margin: 0px 30px;
+}
+@media(max-width: 900px){
+    footer ul{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    footer ul li{
+        margin: 10px 0px;
+    }
+    footer .right {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    footer .img{
+        text-align: center;
+    }
+}

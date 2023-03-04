@@ -1,0 +1,35 @@
+.Contact{
+    width: 100%;
+    margin-top: 100px;
+}
+.Contact .box{
+    text-align: center;
+}
+.Contact .box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Contact .box form input{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #626276;
+    padding: 10px 17px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    border: 1px solid #626276;
+}
+.Contact .box form button{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 29px;
+    color: black;
+    border: none;
+    padding: 8px;
+    background-color: #FFBE0B;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
